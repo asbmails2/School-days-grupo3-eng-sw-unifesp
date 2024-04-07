@@ -35,3 +35,5 @@ TO DO - colocar os elementos relacionados a práticas de engenharia de software.
 ### Membros do Grupo 3 da Disciplina Eng. de Software Unifesp 24/1 do PPGCC
 
 Marianne Aguiar, Rafael Acioli,Daniel Armbrust,Adriano S Brandão
+
+### Acompanhamento via Trello - https://trello.com/b/CZQU7BSx

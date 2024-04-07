@@ -1,7 +1,7 @@
 A gestão escolar eficiente é essencial para o bom funcionamento de instituições de ensino, promovendo um ambiente propício ao aprendizado, 
 ao desenvolvimento integral dos alunos e ao crescimento profissional dos colaboradores. 
 
-###Objetivos do Projeto:
+### Objetivos do Projeto:
 
 Otimização dos Processos Administrativos: Revisão e atualização dos procedimentos administrativos para torná-los mais eficientes e transparentes.
 
@@ -14,7 +14,7 @@ visando identificar áreas de melhoria e implementar ações corretivas.
 Fortalecimento da Comunicação Escola-Comunidade: Desenvolvimento de estratégias de comunicação eficazes para fortalecer o 
 relacionamento entre a escola, os alunos, os pais/responsáveis e a comunidade em geral.
 
-####Justificativa do Projeto:
+#### Justificativa do Projeto:
 
 Eficiência Operacional: A otimização dos processos administrativos reduzirá custos e tempo, permitindo que os colaboradores foquem em 
 atividades de maior valor agregado para a instituição.
@@ -28,6 +28,6 @@ de melhoria no processo de ensino-aprendizagem, garantindo uma educação de qua
 Relacionamento Institucional: Uma comunicação eficaz fortalece os laços entre a escola e sua comunidade, promovendo a 
 participação dos pais/responsáveis no processo educativo e estabelecendo parcerias estratégicas.
 
-Metodologia de Implementação:
+### Metodologia de Implementação:
 
 TO DO - colocar os elementos relacionados a práticas de engenharia de software. 

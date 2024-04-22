@@ -39,4 +39,3 @@ TODO: colocar os elementos relacionados a práticas de engenharia de software.
 
 - [Engenharia de Requisitos](/docs/engenharia-de-requisitos.md)
 - [Ambiente de desenvolvimento Django (Python web framework)](/docs/django-ambiente-dev.md)
-- []

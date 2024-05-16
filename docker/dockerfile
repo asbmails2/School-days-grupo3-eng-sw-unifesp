@@ -1,27 +1,18 @@
 FROM python:3.10
 
+RUN mkdir -p /app/School-days-grupo3-eng-sw-unifesp
 WORKDIR /app
+VOLUME /app/School-days-grupo3-eng-sw-unifesp
 
-COPY requiriments.txt .
-RUN pip install requiriments.txt
-
-#DJANGO HowTo
-
-#1 Clonar o repositório:
-
-RUN git clone git@github.com:asbmails2/School-days-grupo3-eng-sw-unifesp.git
-
-RUN cd School-days-grupo3-eng-sw-unifesp/
-
-#2 Instalar [ambiente virtual Python](https://docs.python.org/3/library/venv.html) e o framework [Django](https://www.djangoproject.com/):
-
-RUN python -m venv venv
-
-RUN source venv/bin/activate
-
+RUN pip install --upgrade pip
 RUN pip install django==5.0
+RUN git clone https://github.com/asbmails2/School-days-grupo3-eng-sw-unifesp.git
+RUN cd ./School-days-grupo3-eng-sw-unifesp
+RUN git init 
+RUN git add .
 
-RUN python -m django --version 5.0
-
-CMD ["python", "manage.py", "runserver"]
-
+#para rodar o container e manter a pasta de arquivos alterados 
+#pode usar o comando abaixo 
+# $ docker run -d -i -v ./School:/app/School-days-grupo3-eng-sw-unifesp schooldays
+# ou também por meio do código
+# $ docker run -d -i -p 8000:8000 schooldays

@@ -41,7 +41,7 @@ class Aluno(Usuario):
     responsaveis = models.ManyToManyField(Usuario, related_name='alunos')  # Many-to-many relationship with 'Usuario' (Responsible)
     
     # School Information (if applicable)
-    turma = models.CharField(max_length=20, verbose_name='Turma')
+    integrante_turma = models.CharField(max_length=20, verbose_name='Turma')
     serie_ano = models.CharField(max_length=10, verbose_name='Ano')
     turno = models.CharField(max_length=10, choices=[('M', 'Manhã'), ('T', 'Tarde')], verbose_name='Shift')
     #falta implementar a vinculação com os modelos de histórico e turma
@@ -53,5 +53,5 @@ class Responsavel(Usuario):
 
 class Professor(Usuario):
     # Teacher-Specific Attributes
-    disciplinas = models.ManyToManyField('Disciplina')  # Many-to-many relationship with 'Disciplina' (Discipline)
+    # disciplinas = models.ForeignKey(Disciplina, on_delete=models.CASCADE)  
     carga_horaria = models.IntegerField(verbose_name='Teaching Hours')

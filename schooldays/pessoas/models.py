@@ -51,6 +51,10 @@ class Responsavel(Usuario):
     # No additional attributes needed, as all 'Usuario' fields are inherited
     pass
 
+class Colaborador(Usuario):
+    # No additional attributes needed, as all 'Usuario' fields are inherited
+    pass
+
 class Professor(Usuario):
     # Teacher-Specific Attributes
     # disciplinas = models.ForeignKey(Disciplina, on_delete=models.CASCADE)  
